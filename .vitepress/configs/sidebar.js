@@ -126,12 +126,20 @@ function getConcurrentSiderBar() {
           link: "/docs/concurrent/notify.md"
         },
         {
+          text: "如何使用synchronized保证线程安全",
+          link: "/docs/concurrent/notify.md"
+        },
+        {
           text: "ThreadLocal详解",
           link: "/docs/concurrent/threadLoal.md"
         },
         {
           text: "CAS&Atomic 原子操作详解",
           link: "/docs/concurrent/cas.md"
+        },
+        {
+          text: "synchronized的实现原理",
+          link: "/docs/concurrent/notify.md"
         },
         {
           text: "并发安全问题",
@@ -147,6 +155,10 @@ function getConcurrentSiderBar() {
         },
         {
           text: "读写锁详解",
+          link: "/docs/concurrent/reentrant-read-write-lock.md"
+        },
+        {
+          text: "从synchronized与Lock探究锁的本质",
           link: "/docs/concurrent/reentrant-read-write-lock.md"
         },
         {
