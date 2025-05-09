@@ -119,80 +119,111 @@ function getBasicSiderBar() {
 function getConcurrentSiderBar() {
   return [
     {
-      text: 'Java 并发编程',
+      text: '基础篇',
       items: [
+        {
+          text: "管程",
+          link: "/docs/concurrent/monitor.md"
+        },
+        {
+          text: "CPU缓存架构和缓存一致性协议",
+          link: "/docs/concurrent/mesi.md"
+        },
+        {
+          text: "CAS与原子操作",
+          link: "/docs/concurrent/cas.md"
+        },
+      ],
+    },
+    {
+      text: '核心篇',
+      items: [
+        {
+          text: "什么是并发编程？",
+          link: "/docs/concurrent/overview.md"
+        },
+        {
+          text: "什么是线程安全问题？",
+          link: "/docs/concurrent/thread-safe-question.md"
+        },
+        {
+          text: "产生线程安全问题的根源是什么？",
+          link: "/docs/concurrent/thread-safe-answer.md"
+        },
+        {
+          text: "Java语言是如何解决线程安全问题的？",
+          link: "/docs/concurrent/java-thread-safe.md"
+        },
+        {
+          text: "Jvm是如何解决线程安全问题的？",
+          link: "/docs/concurrent/jvm-thread-safe.md"
+        },
         {
           text: "并发、线程与等待通知机制",
           link: "/docs/concurrent/notify.md"
         },
         {
-          text: "如何使用synchronized保证线程安全",
-          link: "/docs/concurrent/notify.md"
+          text: "Jvm层面的管程实现-synchronized",
+          link: "/docs/concurrent/mesa-synchronized.md"
         },
         {
-          text: "ThreadLocal详解",
-          link: "/docs/concurrent/threadLoal.md"
+          text: "Java语言层面的管程实现-Lock",
+          link: "/docs/concurrent/mesa-lock.md"
         },
         {
-          text: "CAS&Atomic 原子操作详解",
-          link: "/docs/concurrent/cas.md"
-        },
-        {
-          text: "synchronized的实现原理",
-          link: "/docs/concurrent/notify.md"
-        },
-        {
-          text: "并发安全问题",
-          link: "/docs/concurrent/thread-safe.md"
-        },
-        {
-          text: "并发工具类应用场景",
+          text: "JUC中的并发容器",
           link: "/docs/concurrent/juc.md"
         },
         {
-          text: "AQS原理分析",
-          link: "/docs/concurrent/aqs.md"
-        },
-        {
-          text: "读写锁详解",
-          link: "/docs/concurrent/reentrant-read-write-lock.md"
-        },
-        {
-          text: "从synchronized与Lock探究锁的本质",
-          link: "/docs/concurrent/reentrant-read-write-lock.md"
-        },
-        {
-          text: "JUC包下的并发容器",
+          text: "JUC中的并发工具类",
           link: "/docs/concurrent/juc-coll.md"
         },
         {
-          text: "阻塞队列介绍",
+          text: "提升并发性能的工具类-读写锁",
+          link: "/docs/concurrent/reentrant-read-write-lock.md"
+        },
+        {
+          text: "阻塞队列",
           link: "/docs/concurrent/blocking-queue.md"
         },
         {
           text: "线程池",
           link: "/docs/concurrent/thread-pool.md"
         },
+      ],
+    },
+    {
+      text: '进阶篇',
+      items: [
         {
-          text: "Fork/Join框架介绍",
-          link: "/docs/concurrent/fork-join.md"
-        },
-        {
-          text: "Java内存模型详解",
-          link: "/docs/concurrent/jmm.md"
-        },
-        {
-          text: "CPU缓存架构详解",
-          link: "/docs/concurrent/cpu-cache.md"
-        },
-        {
-          text: "Disruptor详解",
-          link: "/docs/concurrent/disruptor.md"
+          text: "从synchronized与Lock的实现看锁的本质",
+          link: "/docs/concurrent/synchronized-lock.md"
         },
         {
           text: "常用并发设计模式",
           link: "/docs/concurrent/design-patterns.md"
         }
+      ],
+    },
+    {
+      text: '补充篇',
+      items: [
+        {
+          text: "并发安全问题",
+          link: "/docs/concurrent/thread-safe.md"
+        },
+        {
+          text: "无锁设计的典范-Atomic原子变量",
+          link: "/docs/concurrent/atomic.md"
+        },
+        {
+          text: "ThreadLocal详解",
+          link: "/docs/concurrent/threadLoal.md"
+        },
+        {
+          text: "Fork/Join框架介绍",
+          link: "/docs/concurrent/fork-join.md"
+        },
       ],
     }
   ]
