@@ -171,6 +171,10 @@ function getConcurrentSiderBar() {
           link: "/docs/concurrent/mesa-lock.md"
         },
         {
+          text: "并发编程的本质",
+          link: "/docs/concurrent/nature.md"
+        },
+        {
           text: "JUC中的并发容器",
           link: "/docs/concurrent/juc.md"
         },
