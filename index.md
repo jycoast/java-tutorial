@@ -48,7 +48,6 @@ features:
     details: Zookeeper、ShardingSphere
 
   - icon: 
-      # src: https://www.vectorlogo.zone/logos/apache_rocketmq/apache_rocketmq-icon.svg
       src: /mq.svg
     title: MQ
     details: Kafka、RabbitMQ、RocketMQ
@@ -57,8 +56,9 @@ features:
 
   - icon: 
       src: /ha.svg
-    title: 高可用
-    details: HA
+    title: 高并发
+    details: 构件高并发系统
+    link: /docs/scalable-architecture/
     linkText: more
 
   - icon: 

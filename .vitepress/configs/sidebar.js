@@ -5,7 +5,8 @@ export default {
   '/docs/distributed/': getDistributedSiderBar(),
   '/docs/database/': getDataBaseSiderBar(),
   '/docs/mq/': getMqSiderBar(),
-  '/docs/microservices/': getMicroservicesSiderBar()
+  '/docs/microservices/': getMicroservicesSiderBar(),
+  '/docs/scalable-architecture/': getScalableArchitecture()
 }
 
 function getBasicSiderBar() {
@@ -724,6 +725,95 @@ function getMicroservicesSiderBar() {
         {
           text: "微服务网关整合OAuth 2.0",
           link: "/docs/microservices/auth/gateway-oauth.md"
+        },
+      ]
+    },
+  ]
+}
+
+function getScalableArchitecture() {
+  return [
+    {
+      text: '如何构建一个高并发系统？',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/orverview/orverview.md"
+        },
+        {
+          text: "构建高并发系统的通用设计方法",
+          link: "/docs/scalable-architecture/orverview/method.md"
+        },
+      ]
+    },
+    {
+      text: '网络高并发',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/network/network.md"
+        },
+      ]
+    },
+    {
+      text: '服务高并发',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/service/service.md"
+        },
+      ]
+    },
+    {
+      text: '缓存高并发',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/cache/cache.md"
+        },
+      ]
+    },
+    {
+      text: '数据库高并发',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/database/database.md"
+        },
+      ]
+    },
+    {
+      text: '消息队列高并发',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/mq/mq.md"
+        },
+      ]
+    },
+    {
+      text: '系统部署',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/deploy/deploy.md"
+        },
+      ]
+    },
+    {
+      text: '系统监控',
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/docs/scalable-architecture/monitor/monitor.md"
         },
       ]
     },
