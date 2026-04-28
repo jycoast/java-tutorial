@@ -745,6 +745,18 @@ function getScalableArchitecture() {
           text: "构建高并发系统的通用设计方法",
           link: "/docs/scalable-architecture/orverview/method.md"
         },
+        {
+          text: "如何提升系统的性能？",
+          link: "/docs/scalable-architecture/orverview/performance.md"
+        },
+        {
+          text: "如何提升系统的可用性？",
+          link: "/docs/scalable-architecture/orverview/availability.md"
+        },
+          {
+          text: "如何提升系统的可扩展性？",
+          link: "/docs/scalable-architecture/orverview/scalability.md"
+        },
       ]
     },
     {
