@@ -767,6 +767,10 @@ function getScalableArchitecture() {
           text: "概述",
           link: "/docs/scalable-architecture/network/network.md"
         },
+        {
+          text: "静态资源如何加速？",
+          link: "/docs/scalable-architecture/network/cdn.md"
+        },
       ]
     },
     {
@@ -797,6 +801,38 @@ function getScalableArchitecture() {
           text: "概述",
           link: "/docs/scalable-architecture/database/database.md"
         },
+        {
+          text: "主从分离",
+          link: "/docs/scalable-architecture/database/master-slave.md"
+        },
+        {
+          text: "分库分表",
+          link: "/docs/scalable-architecture/database/sub-database-table.md"
+        },
+        {
+          text: "如何保证分库分表后 ID 的全局唯一性？",
+          link: "/docs/scalable-architecture/database/unique-id.md"
+        },
+        {
+          text: "数据库和 NoSQL 如何做到互补？",
+          link: "/docs/scalable-architecture/database/nosql.md"
+        },
+        {
+          text: "使用缓存提升性能",
+          link: "/docs/scalable-architecture/database/cache.md"
+        },
+        {
+          text: "如何选择缓存的读写策略？",
+          link: "/docs/scalable-architecture/database/cache-strategy.md"
+        },
+        {
+          text: "缓存穿透了怎么办？",
+          link: "/docs/scalable-architecture/database/cache-penetration.md"
+        },
+        {
+          text: "缓存如何做到高可用？",
+          link: "/docs/scalable-architecture/database/cache-high-availability.md"
+        },
       ]
     },
     {
@@ -806,6 +842,10 @@ function getScalableArchitecture() {
         {
           text: "概述",
           link: "/docs/scalable-architecture/mq/mq.md"
+        },
+        {
+          text: "秒杀时如何处理每秒上万次的下单请求？",
+          link: "/docs/scalable-architecture/mq/instant-kill.md"
         },
       ]
     },
